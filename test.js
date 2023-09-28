@@ -25,7 +25,7 @@ function makeCall() {
           else console.log(data);
         });
         console.log("Time out");
-      }, 8000);
+      }, 15000);
       console.log(data);
     }
   });
