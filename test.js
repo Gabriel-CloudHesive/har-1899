@@ -3,9 +3,10 @@ AWS.config.update({ region: "ap-southeast-1" });
 var connect = new AWS.Connect();
 
 function makeCall() {
+  //update params with the right values
   var params = {
     ContactFlowId: "5a3c4db6-b929-4573-a08b-50f43901600e",
-    DestinationPhoneNumber: "+13054912981",
+    DestinationPhoneNumber: "+1**********",
     InstanceId: "05525573-df90-4169-a1a2-9161646b2414",
     QueueId: "766f3755-ac91-4d4d-81d2-f1374e69a206",
     SourcePhoneNumber: "+18335941560",
